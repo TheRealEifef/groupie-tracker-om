@@ -1,0 +1,70 @@
+html{
+    background-color: #002e39;
+}
+
+div{
+    background-color: #0099a3;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+
+img{
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+   
+    
+}
+table{
+    margin: 50px;
+}
+
+h4{
+    margin-left:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ff8b43;
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ff8b43;
+    font-size: 20px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.info{
+    padding-left: 500px;
+}
+.bg{
+    width: 200px;
+    height: 200px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 150px));
+    grid-gap: 20px;
+}
+
+.artist-card {
+    background-color: #002e39;
+    /* padding: 20px; */
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+
+.artist-name {
+    margin-bottom: 10px;
+}
+
+.artist-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

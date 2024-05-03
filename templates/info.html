@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="../HTML/style.css"/>
+    <title>Groupie</title>
+</head>
+<body>
+    <div class="Main">
+        <a href="./index.html" class="sideB"><button>Go Back!</button></a>
+        <div>
+            
+            <table>
+              <tr class="info"><td><img src="{{.Image}}" alt="Artist Image"></td>
+              
+            <td>
+              <h2>{{.Name}}</h2>
+            <p>Members: {{range .Members}}{{.}}, {{end}}</p>
+            <p>Creation Date: {{.CreationDate}}</p>
+            <p>First Album: {{.FirstAlbum}}</p>
+            <p>Locations: {{.Locations}}</p>
+            <p>Concert Dates: {{.ConcertDates}}</p>
+            <p>Relations: {{.Relations}}</p>
+          </td>
+          </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
